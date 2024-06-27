@@ -1,0 +1,15 @@
+version: "3"
+
+services:
+    gpthelper:
+        container_name: gpthelper
+        command: python3 -m bot.bot
+        restart: always
+        build:
+            context: .
+            dockerfile: Dockerfile
+        volumes:
+            - data:/code/data
+
+volumes:
+    data:
