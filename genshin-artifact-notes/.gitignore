@@ -1,0 +1,25 @@
+.DS_Store
+node_modules
+/dist
+src/data/genshin-artifact-notes-firebase-adminsdk-b15jy-775ad9260b.json
+src/data/key.js
+
+# local env files
+.env.local
+.env.*.local
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Editor directories and files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+src/key.js

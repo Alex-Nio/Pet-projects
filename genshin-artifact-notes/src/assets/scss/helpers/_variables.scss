@@ -1,0 +1,63 @@
+// Base colors
+$white: #ffffff;
+$black: #0d0d0d;
+$primary: #303030;
+$secondary: #8f8f8f;
+$other: #f8f8f8;
+
+// Action colors
+$btn-back: #514f41;
+$valueColor: #000;
+
+//Checkbox colors
+$checkbox-base-color: rgba(59, 199, 201, 0.77);
+$checkbox-background: rgba(255, 255, 255, 0.9);
+$checkbox-border: 2px solid rgba(139, 139, 139, 0.3);
+$checkbox-checked-background: #40c9a2;
+$checkbox-checked-border: 2px solid #40c9a2;
+$checkbox-disabled-background: rgba(113, 112, 112, 0.464);
+
+// Select colors
+$general-selection-active: teal;
+$general-selection-default: #40c9a2;
+$general-selection-disabled: #383a36;
+// Types colors
+$types-selected-bg: #8affe62e;
+$types-selected-before: rgba(111, 239, 215, 0.24);
+$types-selected-before-border: rgba(111, 239, 215, 0.3);
+
+// Forms
+$form-focus-color: #30c7cf;
+
+// Popups
+$popup-btn-submit: green;
+$popup-btn-declined: red;
+$popup-btn-active: rgba(43, 189, 246, 0.746);
+
+// Font Size
+$base_fz: 1.6rem;
+$base_ff: "Roboto", sans-serif;
+$base_hover: 0.5; // opacity
+$base_bg: #403f3f;
+$base_color: $white;
+
+//? Fonts
+$ff_R: "Roboto", sans-serif;
+$ff_C: 'Comfortaa', cursive;
+$ff_MainTitle: "Saira Stencil One", cursive;
+$ff_MainText: "Satisfy", cursive;
+
+//? Style
+$I: italic;
+$O: oblique;
+
+//? Weight
+$th: 100; // Thin
+$el: 200; // Extra Light
+$l: 300; // Light
+$r: 400; // Regular
+$m: 500; // Medium
+$sb: 600; // SemiBold
+$b: 700; // Bold
+$eb: 800; // Extra Bold
+$bl: 900; // Super
