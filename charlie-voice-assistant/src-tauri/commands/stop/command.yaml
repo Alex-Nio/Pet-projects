@@ -1,0 +1,14 @@
+list:
+  - command:
+      action: stop_chaining
+    voice:
+      sounds:
+        - thanks
+        - confirm1
+    phrases:
+      - всё
+      - не слушай
+      - отдыхай
+      - на этом всё
+      - хватит слушать
+      - на этом всё
