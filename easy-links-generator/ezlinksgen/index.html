@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Ez LG</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+	<section class="generator">
+		<div class="container">
+			<div class="container__row container__row--space-between">
+				<!-- col -->
+				<div class="column generator__column">
+					<h3 class="main-title">Generator</h3>
+					<div class="entry-point field">
+						<div class="entry-point__row">
+							<div class="field__title title title--h3">
+								<h3>Add your git path and click</h3>
+							</div>
+							<div class="field__actions">
+								<button class="btn generate-btn">Generate</button>
+							</div>
+						</div>
+						<div class="entry-point__row">
+							<textarea class="main" name="field1" id="field1" cols="40" rows="10"
+								placeholder="Please, enter path"></textarea>
+						</div>
+					</div>
+					<div class="result-field">
+						<div class="field-uat field">
+							<div class="field-uat__row">
+								<h3 class="field-uat__title result-title">UAT</h3>
+								<div class="field-actions">
+									<button class="copy-all">Copy All</button>
+								</div>
+							</div>
+							<p>There would be result</p>
+							<div class="field-uat__result result"></div>
+						</div>
+						<div class="field-prod field">
+							<div class="field-prod__row">
+								<h3 class="field-prod__title result-title">PROD</h3>
+								<div class="field-actions">
+									<button class="copy-all">Copy All</button>
+								</div>
+							</div>
+							<p>There would be result</p>
+							<div class="field-prod__result result"></div>
+						</div>
+						<div class="field-local field">
+							<div class="field-local__row">
+								<h3 class="field-local__title result-title">Local</h3>
+								<div class="field-actions">
+									<button class="copy-all">Copy All</button>
+								</div>
+							</div>
+							<p>There would be result</p>
+							<div class="field-local__result result"></div>
+						</div>
+					</div>
+				</div>
+				<!-- col -->
+				<div class="column generator__column">
+					<div class="letters-field field">
+						<div class="letters-field__row">
+							<h3 class="main-title">Mail</h3>
+							<div class="field-actions">
+								<input data-type="name" type="text" placeholder="Reporters name" value=""
+									autocomplete="off">
+								<input data-type="job" type="text" placeholder="Job number" value="" autocomplete="off">
+								<input data-type="story" type="text" placeholder="Story" value="" autocomplete="off">
+								<a class="story-link" href="#">Open story</a>
+							</div>
+						</div>
+						<div class="uat-letter">
+							<div class="uat-letter__row">
+								<h3 class="result-title">UAT LETTER</h2>
+									<button class="copy-letter">Copy Letter</button>
+							</div>
+							<div class="uat-letter__result letter">
+								<p class="reporters-name">Dear, Name</p>
+								<br>
+								<p class="uat-letter__links links"></p>
+								<br>
+								<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse ex eius amet optio
+									fugit quaerat, architecto porro enim doloremque explicabo! Ad exercitationem
+									architecto quaerat iste vero facere odio voluptatem ab sequi asperiores. Ullam
+									et molestias ea quae adipisci natus soluta. Rerum placeat maiores explicabo
+									ratione magni quibusdam molestiae aspernatur possimus?</p>
+								<br>
+								<p class="job-number">Job ...</p>
+								<br>
+								<p>Thanks!</p>
+							</div>
+						</div>
+						<div class="prod-letter">
+							<div class="prod-letter__row">
+								<h3 class="result-title">PROD LETTER</h3>
+								<button class="copy-letter">Copy Letter</button>
+							</div>
+							<div class="prod-letter__result letter">
+								<p class="reporters-name">Dear, Name</p>
+								<br>
+								<p class="prod-letter__links links"></p>
+								<br>
+								<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse ex eius amet optio
+									fugit quaerat, architecto porro enim doloremque explicabo! Ad exercitationem
+									architecto quaerat iste vero facere odio voluptatem ab sequi asperiores. Ullam et
+									molestias ea quae adipisci natus soluta. Rerum placeat maiores explicabo ratione
+									magni quibusdam molestiae aspernatur possimus?</p>
+								<br>
+								<p class="job-number">Job ...</p>
+								<br>
+								<p>Thanks!</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- col -->
+				<div class="column generator__column">
+					<h3 class="main-title">Logger</h3>
+					<div class="result-field">
+						<div class="field-full field">
+							<div class="field-full__row">
+								<h3 class="field-full__title result-title">ALL FILES LOG</h3>
+							</div>
+							<p>There would be result</p>
+							<div class="field-full__result result"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<script src="js/script.js"></script>
+</body>
+
+</html>
