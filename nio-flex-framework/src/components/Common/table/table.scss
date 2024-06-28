@@ -1,0 +1,94 @@
+.table {
+  width: 80vw;
+  border: 3px solid $primary-400;
+}
+
+.row {
+  background-color: rgba(173, 140, 215, 0.48);
+}
+
+.table-content {
+  @include fdcjc_aic;
+  width: 100%;
+  align-items: center;
+  border: 2px solid $white;
+  background-color: rgba(180, 255, 183, 0.48);
+
+  & h2 {
+    @include ff_subt;
+    color: #8b00ff;
+    padding: 5px 0;
+  }
+
+  & h3 {
+    width: 100%;
+    @include ff_title;
+    text-align: center;
+    border-top: 2px solid $white;
+    border-bottom: 2px solid $white;
+    padding: 5px 0;
+  }
+
+  & span {
+    @include ff_subt;
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+
+  & .table-content__item {
+    text-align: center;
+  }
+}
+
+.table-devider {
+  width: 100%;
+  height: 60px;
+  @include fdrjc_aic;
+  text-align: center;
+  background-color: #a8dadc;
+  @include ff_table_devider;
+}
+
+.table-content__list {
+  display: grid;
+  width: 100%;
+  grid-template-columns: repeat(3, 1fr);
+  background-color: black;
+  grid-gap: 1px;
+}
+
+.table-content__item {
+  padding: 40px;
+  background-color: #f1faee;
+}
+
+.table-content__top {
+  width: 100%;
+  @include fdrjc_aic;
+}
+
+.item-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 60px;
+}
+
+.item-title h2 {
+  color: red;
+  @include nunito-b24;
+  padding: 2px;
+  margin: 5px;
+}
+
+.item-description {
+  @include ff_cursive;
+  padding: 5px;
+}
+
+.text-devider {
+  @include ff_devider;
+  padding: 2px;
+  margin: 5px;
+}

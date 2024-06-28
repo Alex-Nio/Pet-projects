@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ru">
+@@include('components/Common/head/head.html', { 'title': 'Главная', 'css':
+'main' })
+
+<body>
+  <div class="full-wrapper">
+    @@include('components/Common/header/export/header.html')
+    <main class="page">
+      <div class="page__inner">
+        <div class="main">
+          @@include('components/Common/table/table.html')
+        </div>
+      </div>
+    </main>
+    <!-- Footer -->
+    @@include('components/Common/footer/main-footer/footer.html')
+  </div>
+
+  <!-- Modals -->
+  <!-- Preloader -->
+  @@include('components/Shared/Preloaders/page-preloader/page-preloader.html')
+
+
+  <!-- page scripts -->
+  <script src="../styles/js/main.min.js"></script>
+  <script src="https://unpkg.com/simplebar@latest/dist/simplebar.min.js"></script>
+  <!-- end -->
+</body>
+
+</html>

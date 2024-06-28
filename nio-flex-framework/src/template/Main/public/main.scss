@@ -1,0 +1,10 @@
+//* Global Styles
+@import './../../../app/scss/global.scss';
+//? Common Components
+@import './../../../components/Common/header/export/header.scss';
+@import './../../../components/Common/footer/main-footer/footer.scss';
+@import './../../../components/Common/table/table.scss';
+//? Shared Components
+@import './../../../components/Shared/Preloaders/page-preloader/page-preloader.scss';
+//? Chapter Unique Components
+//? Sections
